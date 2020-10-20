@@ -5,9 +5,9 @@ import StockPortfolioWebsite from "./portfolioWorks/stockPortfolioWebsite";
 import SecScraper from "./portfolioWorks/secScraper";
 import Backtesting from "./portfolioWorks/backtesting";
 import AionBot from "./portfolioWorks/aionBot";
-import recipeScreen from "./images/recipeWebsiteScreenshot.png";
-import stockScreen from "./images/stockPortfolioWebsite.png";
-import secScreen from "./images/sec.jpeg";
+import recipeScreen from "../images/recipeWebsiteScreenshot.png";
+import stockScreen from "../images/stockPortfolioWebsite.png";
+import secScreen from "../images/sec.jpeg";
 
 const Portfolio = () => {
 	const [recipeModal, setRecipeModal] = useState(false);

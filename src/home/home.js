@@ -2,8 +2,7 @@ import React from "react";
 import "./home.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-import AboutMe from "./aboutMe";
+
 const Home = () => {
 	return (
 		<div className="home-body ">

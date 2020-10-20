@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./styles.scss";
-import github_logo from "../images/GitHub-Logo.png";
+import github_logo from "../../images/GitHub-Logo.png";
 
 const Backtesting = (props) => {
 	return (
@@ -17,6 +17,7 @@ const Backtesting = (props) => {
 							<a
 								href="https://github.com/galibin24/Portfolio-Backtesting"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<img
 									className="githubLogo"

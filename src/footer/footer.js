@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
 	return (
 		<footer className="foot">
@@ -14,6 +16,15 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
+			<a
+				href="https://github.com/galibin24/Portfolio-Website"
+				target="_blank"
+				className="git visible"
+				rel="noopener noreferrer"
+			>
+				<FontAwesomeIcon icon={faGithub} className="icon" />
+				Check this site on GitHub.
+			</a>
 		</footer>
 	);
 };

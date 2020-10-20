@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./styles.scss";
-import github_logo from "../images/GitHub-Logo.png";
+import github_logo from "../../images/GitHub-Logo.png";
 
 const AionBot = (props) => {
 	return (
@@ -14,11 +14,16 @@ const AionBot = (props) => {
 					<div className="row justify-content-center">
 						<span>
 							Have a look at source code at: &nbsp;
-							<a href="https://github.com/galibin24/Game-Bot" target="_blank">
+							<a
+								href="https://github.com/galibin24/Game-Bot"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									className="githubLogo"
 									src={github_logo}
 									alt="github"
+									rel="noopener noreferrer"
 								></img>
 							</a>
 						</span>

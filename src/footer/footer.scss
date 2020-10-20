@@ -1,0 +1,44 @@
+.foot {
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+	h3 {
+		color: white;
+	}
+}
+
+.git {
+	// bottom: 20px;
+	position: fixed;
+	display: block;
+	bottom: -50px;
+	right: 20px;
+	color: #333;
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	opacity: 0.7;
+	padding-left: 40px;
+	z-index: 2;
+	-webkit-transition: opacity 0.15s, bottom 0.5s ease-out;
+	-moz-transition: opacity 0.15s, bottom 0.5s ease-out;
+	-o-transition: opacity 0.15s, bottom 0.5s ease-out;
+	transition: opacity 0.15s, bottom 0.5s ease-out;
+	font-size: 20px;
+	.icon {
+		position: absolute;
+		left: 10px;
+		top: 5px;
+		font-size: 45px;
+		// margin-right: 20px;
+		padding-right: 20px;
+		// padding-left: 30px;
+	}
+}
+
+.visible {
+	bottom: 20px;
+}

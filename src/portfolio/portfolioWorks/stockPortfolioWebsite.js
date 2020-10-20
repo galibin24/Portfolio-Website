@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./styles.scss";
-import github_logo from "../images/GitHub-Logo.png";
+import github_logo from "../../images/GitHub-Logo.png";
 
 const StockPortfolioWebsite = (props) => {
 	return (
@@ -14,7 +14,11 @@ const StockPortfolioWebsite = (props) => {
 					<div className="row justify-content-center">
 						<span>
 							You can view the website by following to: &nbsp;
-							<a href="https://nikitagalibinstocks.tk/" target="_blank">
+							<a
+								href="https://nikitagalibinstocks.tk/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								nikitagalibinstocks.tk
 							</a>
 						</span>
@@ -24,6 +28,7 @@ const StockPortfolioWebsite = (props) => {
 							<a
 								href="https://github.com/galibin24/Stock-Portfolio"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<img
 									className="githubLogo"

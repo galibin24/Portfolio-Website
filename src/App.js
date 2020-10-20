@@ -1,8 +1,9 @@
 import React from "react";
-import Home from "./home";
-import AboutMe from "./aboutMe";
-import Portfolio from "./portfolio";
-import Footer from "./footer";
+import Home from "./home/home";
+import AboutMe from "./aboutMe/aboutMe";
+import Portfolio from "./portfolio/portfolio";
+import Footer from "./footer/footer";
+
 function App() {
 	return (
 		<div>

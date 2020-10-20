@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import "./styles.scss";
-import github_logo from "../images/GitHub-Logo.png";
+import github_logo from "../../images/GitHub-Logo.png";
 
 const SecScraper = (props) => {
 	return (
@@ -17,6 +17,7 @@ const SecScraper = (props) => {
 							<a
 								href="https://github.com/galibin24/SEC-EDGAR-python-scraper"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<img
 									className="githubLogo"
