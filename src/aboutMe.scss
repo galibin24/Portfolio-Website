@@ -1,0 +1,62 @@
+.about-body {
+	font-family: "Playfair Display", serif;
+	height: 100vh;
+	background-color: white;
+	margin-bottom: 0;
+	display: table;
+	width: 100%;
+}
+
+.animated.slide-in-left {
+	animation: slideInLeft 0.75s ease both;
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30pt;
+	font-weight: 500;
+	animation: slideInLeft 0.75s ease both;
+	color: #444649;
+	font-family: "raleway-bold";
+	text-align: center;
+
+	u {
+		// padding-top: 0px;
+	}
+}
+
+.aboutHeader {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.skillBody {
+	padding: 20px 30px;
+	// width: 71%;
+	margin-right: -1px;
+	background: #fff;
+	// float: left;
+	border: 1px solid #eee;
+	ul {
+		padding-left: 0;
+		list-style: none;
+	}
+	li {
+		display: list-item;
+		text-align: center;
+		line-height: 10px;
+		padding: 10px 10px;
+
+		font-weight: 500;
+		font-family: "Source Code Pro", sans-serif;
+		color: #444;
+	}
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 50px;
+}
